@@ -1,0 +1,10 @@
+{
+  "name": "DIYA Life OS",
+  "description": "Behavioral Intelligence Life OS with Consequence Modeling and Web Speech API",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
