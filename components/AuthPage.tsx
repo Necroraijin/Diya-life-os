@@ -326,10 +326,10 @@ export default function AuthPage({ onAuthSuccess }: AuthPageProps) {
               <span className="w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin" />
             ) : (
               <>
-                <span style={{ fontFamily: "Cormorant Garamond", fontSize: "15px", color: "#000000", fontStyle: "italic" }}>
+                <span style={{ fontFamily: "Cormorant Garamond", fontSize: "15px", color: "#F9F7F2", fontStyle: "italic" }}>
                   {isLogin ? "Authenticate Session" : "Compile DIYA Credentials"}
                 </span>
-                <ArrowRight size={15} style={{ fontSize: "15px", color: "#000000" }} />
+                <ArrowRight size={15} style={{ fontSize: "15px", color: "#F9F7F2" }} />
               </>
             )}
           </button>

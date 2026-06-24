@@ -22,7 +22,7 @@ export default function WelcomeAnimation({ onComplete }: WelcomeAnimationProps) 
       clearTimeout(timer3);
       clearTimeout(timer4);
     };
-  }, [onComplete]);
+  }, []);
 
   return (
     <div className="fixed inset-0 bg-[#F9F7F2] flex flex-col items-center justify-center z-50 p-6">
